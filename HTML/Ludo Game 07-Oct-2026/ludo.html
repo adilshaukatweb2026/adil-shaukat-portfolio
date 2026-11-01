@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Board</title>
+</head>
+<!-- body color -->
+
+<body style="background: #eee;">
+    <!-- start table -->
+    <!-- border 1 se border banta hai or cellspacing se border ka gap hat jaata hai boder collapse se double line khatam hojati hai margin 20 px se table beach me aati hai -->
+    <table border="1" cellspacing="0" style="border-collapse: collapse; margin:20px auto;">
+        <colgroup>
+            <!-- 15 colums 40 pixels -->
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+            <col width="40">
+        </colgroup>
+        <!-- end colgroup -->
+        <!-- row 1 -->
+        <tr style="height:40px;">
+            <td rowspan="6" colspan="6" align="center" style="background: green;">
+                <!-- td ka andar nested table -->
+                <!-- cellspacing 15 se goti me 15 px gap -->
+                <table cellspacing="15">
+                    <tr>
+                        <!-- goti ki pehli row pehli or dosri goti -->
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                    </tr>
+                    <tr>
+                        <!-- goti ki dosri row teesri or 4th goti-->
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                        <!-- goti ki row khatam -->
+                    </tr>
+                    <!-- nested table khatam -->
+                </table>
+                <!-- green end -->
+            </td>
+            <!-- column 7/8/9 -->
+            <td></td>
+            <td></td>
+            <td></td>
+            <!-- start yellow -->
+            <td rowspan="6" colspan="6" align="center" style="background: gold;">
+                <!-- yellow nested table -->
+                <table cellspacing="15">
+                    <tr>
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                    </tr>
+                    <tr>
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                    </tr>
+                    <!-- END NESTED TABLE -->
+                </table>
+                <!-- yellow end -->
+            </td>
+        </tr>
+        <!-- row 1 end total = 6+3+6=15 columns -->
+        <!-- row 2 sirf 3 cells kyun k baqi jagah home k rowspan ne li hoi he-->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background:gold;"></td>
+            <td style="background:gold;"></td>
+        </tr>
+        <!-- row 2 end -->
+        <!-- start row 3 -->
+        <tr style="height:40px">
+            <td style="background: green;"></td>
+            <td style="background: gold;"></td>
+            <td></td>
+        </tr>
+        <!-- row 3 end -->
+        <!-- row 4 white yellow white -->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: gold;"></td>
+            <td></td>
+        </tr>
+        <!--row 4 end  -->
+        <!-- row 5 white yellow white -->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: gold;"></td>
+            <td></td>
+        </tr>
+        <!--row 5 end  -->
+        <!-- row 6 white yellow white -->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: gold;"></td>
+            <td></td>
+        </tr>
+        <!--row 6 end  -->
+        <!-- row 7 start -->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: green;"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <!-- center 3 by 3 -->
+            <td rowspan="3" colspan="3" style="background:conic-gradient"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="background: gold;"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <!-- row 7 end -->
+        <!-- row 8 start -->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: green;"></td>
+            <td style="background: green;"></td>
+            <td style="background: green;"></td>
+            <td style="background: green;"></td>
+            <td style="background: green;"></td>
+            <!-- 5 box blue -->
+            <td style="background: blue;"></td>
+            <td style="background: blue;"></td>
+            <td style="background: blue;"></td>
+            <td style="background: blue;"></td>
+            <td style="background: blue;"></td>
+            <td></td>
+        </tr>
+        <!-- row 8 khatam -->
+        <!-- row 9 khatam -->
+        <tr style="height:40px">
+            <td></td>
+            <td></td>
+            <td style="background: red;"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="background: blue;"></td>
+            <td></td>
+        </tr>
+        <!-- row 9 khatam -->
+        <!-- row 10 start -->
+        <tr style="height:40px">
+            <td rowspan="6" colspan="6" align="center" style="background: red;">
+                <!-- red home k andar nested table -->
+                <table cellspacing="15">
+                    <tr>
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                    </tr>
+                    <tr>
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                    </tr>
+                </table>
+                <!-- nested table end -->
+            </td>
+            <!-- red home end -->
+            <td></td>
+            <td style="background: red;"></td>
+            <td></td>
+            <td rowspan="6" colspan="6" align="center" style="background: blue;">
+                <!-- blue home nested table -->
+                <table cellspacing="15">
+                    <tr>
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                    </tr>
+                    <tr>
+                        <td width="40" height="40" style="background: white;"></td>
+                        <td width="40" height="40" style="background: white;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- row 10 end -->
+        <!-- row 11 start white red white -->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: red;"></td>
+            <td></td>
+        </tr>
+        <!-- row 11 end -->
+        <!-- row 12 start white red white-->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: red;"></td>
+            <td></td>
+        </tr>
+        <!-- row 12 end -->
+        <!-- row 13 start -->
+        <tr style="height:40px">
+            <td></td>
+            <td style="background: red;"></td>
+            <td style="background: blue;"></td>
+        </tr>
+        <!-- row 13 end -->
+        <!-- row 14 start -->
+        <tr style="height: 40px;">
+            <td style="background: red;"></td>
+            <td style="background: red;"></td>
+            <td></td>
+        </tr>
+        <!-- row 14 end -->
+        <!-- row 15 start -->
+        <tr style="height:40px">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <a href="../../index.html">Back To Home</a>
+</body>
+
+</html>

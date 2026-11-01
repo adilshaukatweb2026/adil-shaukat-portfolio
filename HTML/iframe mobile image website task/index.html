@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe home task</title>
+    <style>
+        /* browser page ki grid jo default khali jagah lagata hai usay hata do */
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            /* page ko poori screen ki unchai do */
+        }
+
+        /* page ka background or cheez ko centre me laana */
+        body {
+            /*gol gradient beech me light cyan kinaron par dark blue*/
+            background: radial-gradient(circle at center, #3ec9e0 0%, #1a8fa8 40%, #0e4560 75%, #0a2540 100%);
+
+            /*flexbox se phone bilkul beach me rakhengy*/
+            display: flex;
+            justify-content: center;
+            /*left right k hisab se beech me*/
+            align-items: center;
+            /*upar nichy k hisab se beech me*/
+        }
+
+        /* phone jesa frame html k div class phone par lagega */
+        .phone {
+            width: 375px;
+            /* mobile screen ki chorai */
+            height: 667px;
+            /* mobile screen ki unchai */
+            max-height: 90vh;
+            /* choti screen par phone window se bada na ho */
+
+            border: 5px solid #111;
+            /* phone ki body jesa border */
+            border-radius: 28px;
+            /* kinaron ko gol karta hai */
+            background: #fff;
+            /* phone ki screen ka white color */
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+            /* phone k nichy halka saaya */
+
+            overflow: hidden;
+            /* phone k kinaron bahir nikalne se rokta hai */
+        }
+
+        /* phone k andar wala iframe */
+        .phone iframe {
+            width: 100%;
+            /* phone ki poori chodia le */
+            height: 100%;
+            /* phone ki poori unchai le */
+            border: none;
+            /* iframe ka default border hata do */
+            display: block;
+            /* iframe ki nichy ki choti khali patti hata do */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- this div is the phone frame. we will style it with css later -->
+    <div class="phone">
+
+        <!-- the iframe shows the wikipedia website inside the phone -->
+        <iframe src="https://www.wikipedia.org" title="Wikipedia homepage"></iframe>
+    </div>
+    <a href="../../index.html">Back To Home</a>
+</body>
+
+</html>

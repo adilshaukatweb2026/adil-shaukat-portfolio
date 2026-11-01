@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 16px;
+        }
+
+        .pt {
+            border-collapse: separate;
+            border-spacing: 2px;
+            text-align: center;
+        }
+
+        .pt th {
+            font-size: 11px;
+            color: #666;
+            font-weight: normal;
+            vertical-align: bottom;
+        }
+
+        .pt th.p {
+            vertical-align: middle;
+            padding: 0 4px;
+        }
+
+        .pt td {
+            width: 44px;
+            height: 30px;
+            font-weight: bold;
+            font-size: 15px;
+            border-radius: 3px;
+            color: #222;
+        }
+
+        .pt .sp {
+            height: 10px;
+        }
+
+        .leg td {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        hr {
+            width: 300px;
+            margin-left: 0;
+        }
+        .m { background: #b9dff7; }
+        .n { background: #f3d06b; }
+        .d { background: #f8cdb5; }
+        .h { background: #7b6cf0; color: white; }
+        .g { background: #f4a672; }
+        .l { background: #f07a7a; color: white; }
+        .a { background: #a9dd85; }
+        .u { background: #eeeeee; color: #555555; }
+        .b { background: #f5b8e6; }
+    </style>
+</head>
+
+<body>
+    <!-- Class Matlab Rang
+    m Metals Neela
+    n Nonmetals Peela
+    d Metalloids Peach
+    h Halogens Jamni
+    g Noble gases Orange
+    l Lanthanoids Laal
+    a Actinoids Hara
+    u Unknown Grey
+    b Blocks Gulabi -->
+    <h2>Periodic Table</h2>
+    <table class="leg">
+        <tr>
+            <td class="m">Metals</td>
+            <td class="n">Nonmetals</td>
+            <td class="d">Metalloids</td>
+            <td class="h">Halogens</td>
+        </tr>
+    </table>
+    <hr>
+    <table class="leg">
+        <tr>
+            <td class="b">s block</td>
+            <td class="b">p block</td>
+            <td class="b">d block</td>
+            <td class="b">f block</td>
+        </tr>
+    </table>
+    <br>
+    <table class="pt">
+        <tr>
+            <th>period</th>
+            <th>group</th>
+            <td colspan="17"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <th>1</th>
+            <td colspan="16"></td>
+            <th>18</th>
+        </tr>
+        <tr>
+            <th class="p">1</th>
+            <td class="n">H</td>
+            <th>2</th>
+            <td colspan="10"></td>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+            <td class="g">He</td>
+        </tr>
+        <tr>
+            <th class="p">2</th>
+            <td class="m">Li</td>
+            <td class="m">Be</td>
+            <td colspan="10"></td>
+            <td class="d">B</td>
+            <td class="n">C</td>
+            <td class="n">N</td>
+            <td class="n">O</td>
+            <td class="h">F</td>
+            <td class="g">Ne</td>
+        </tr>
+        <tr>
+            <th class="p">3</th>
+            <td class="m">Na</td>
+            <td class="m">Mg</td>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <td class="m">Al</td>
+            <td class="d">Si</td>
+            <td class="n">P</td>
+            <td class="n">S</td>
+            <td class="h">Cl</td>
+            <td class="g">Ar</td>
+        </tr>
+        <tr>
+            <th class="p">4</th>
+            <td class="m">K</td>
+            <td class="m">Ca</td>
+            <td class="m">Sc</td>
+            <td class="m">Ti</td>
+            <td class="m">V</td>
+            <td class="m">Cr</td>
+            <td class="m">Mn</td>
+            <td class="m">Fe</td>
+            <td class="m">Co</td>
+            <td class="m">Ni</td>
+            <td class="m">Cu</td>
+            <td class="m">Zn</td>
+            <td class="m">Ga</td>
+            <td class="d">Ge</td>
+            <td class="d">As</td>
+            <td class="n">Se</td>
+            <td class="h">Br</td>
+            <td class="g">Kr</td>
+        </tr>
+        <tr>
+            <th class="p">5</th>
+            <td class="m">Rb</td>
+            <td class="m">Sr</td>
+            <td class="m">Y</td>
+            <td class="m">Zr</td>
+            <td class="m">Nb</td>
+            <td class="m">Mo</td>
+            <td class="m">Tc</td>
+            <td class="m">Ru</td>
+            <td class="m">Rh</td>
+            <td class="m">Pd</td>
+            <td class="m">Ag</td>
+            <td class="m">Cd</td>
+            <td class="m">In</td>
+            <td class="m">Sn</td>
+            <td class="d">Sb</td>
+            <td class="d">Te</td>
+            <td class="h">I</td>
+            <td class="g">Xe</td>
+        </tr>
+        <tr>
+            <th class="p">6</th>
+            <td class="m">Cs</td>
+            <td class="m">Ba</td>
+            <td class="l">Lu</td>
+            <td class="m">Hf</td>
+            <td class="m">Ta</td>
+            <td class="m">W</td>
+            <td class="m">Re</td>
+            <td class="m">Os</td>
+            <td class="m">Ir</td>
+            <td class="m">Pt</td>
+            <td class="m">Au</td>
+            <td class="m">Hg</td>
+            <td class="m">Tl</td>
+            <td class="m">Pb</td>
+            <td class="m">Bi</td>
+            <td class="d">Po</td>
+            <td class="h">At</td>
+            <td class="g">Rn</td>
+        </tr>
+        <tr>
+            <th class="p">7</th>
+            <td class="m">Fr</td>
+            <td class="m">Ra</td>
+            <td class="a">Lr</td>
+            <td class="m">Rf</td>
+            <td class="m">Db</td>
+            <td class="m">Sg</td>
+            <td class="m">Bh</td>
+            <td class="m">Hs</td>
+            <td class="m">Mt</td>
+            <td class="m">Ds</td>
+            <td class="m">Rg</td>
+            <td class="m">Cn</td>
+            <td class="m">Nh</td>
+            <td class="m">Fl</td>
+            <td class="m">Mc</td>
+            <td class="m">Lv</td>
+            <td class="h">Ts</td>
+            <td class="g">Og</td>
+        </tr>
+        <tr>
+            <td colspan="19" class="sp"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td class="u">Uue</td>
+            <td class="u">Ubn</td>
+            <th class="p">6</th>
+            <td class="l">La</td>
+            <td class="l">Ce</td>
+            <td class="l">Pr</td>
+            <td class="l">Nd</td>
+            <td class="l">Pm</td>
+            <td class="l">Sm</td>
+            <td class="l">Eu</td>
+            <td class="l">Gd</td>
+            <td class="l">Tb</td>
+            <td class="l">Dy</td>
+            <td class="l">Ho</td>
+            <td class="l">Er</td>
+            <td class="l">Tm</td>
+            <td class="l">Yb</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td colspan="2"></td>
+            <th class="p">7</th>
+            <td class="a">Ac</td>
+            <td class="a">Th</td>
+            <td class="a">Pa</td>
+            <td class="a">U</td>
+            <td class="a">Np</td>
+            <td class="a">Pu</td>
+            <td class="a">Am</td>
+            <td class="a">Cm</td>
+            <td class="a">Bk</td>
+            <td class="a">Cf</td>
+            <td class="a">Es</td>
+            <td class="a">Fm</td>
+            <td class="a">Md</td>
+            <td class="a">No</td>
+            <td></td>
+        </tr>
+    </table>
+    <a href="../../index.html">Back To Home</a>
+
+</body>
+
+</html>
