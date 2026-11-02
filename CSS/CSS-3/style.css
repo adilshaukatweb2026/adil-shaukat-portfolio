@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFDD0;
+}
+.card-one {
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    background: url(./assets/images/img1.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.card-two {
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    background: url(./assets/images/img2.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.card-three {
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    background: url(./assets/images/img3.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+/* parent div */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+h2 {
+    margin-top: 240px;
+    text-align: center;
+    color: #483e3e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(45, 44, 49);
+    word-spacing: 3px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#button {
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    background-color: rgb(117, 117, 250);
+    color: white;
+}
