@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>CSS Box Model Assignment</h1>
+    <h2>Width, Padding, &amp; Border</h2>
+
+    <div class="main-div">
+
+    <div class="box1">
+        <p>Width: 150px</p>
+        <p>border: 5px</p>
+        <p>Output: 160px</p>
+    </div>
+    <br>
+    <div class="box2">
+        <p>Width: 200px</p>
+        <p>Padding: 10px</p>
+        <p>border: 5px</p>
+        <p>Output: 230px</p>
+    </div>
+    <br>
+    <div class="box3">
+        <p>Width: 250px</p>
+        <p>Padding left 25 px right 15px</p>
+        <p>border: 5px</p>
+        <p>Output: 300px</p>
+    </div>
+    <br>
+    <div class="box4">
+        <p>Width: 300px</p>
+        <p>Padding 50px</p>
+        <p>border Right: 10px</p>
+        <p>border Left: 15px</p>
+        <p>Output: 425px</p>
+    </div>
+    <br>
+    <div class="box5">
+        <p>Width: 350px</p>
+        <p>Padding 20px</p>
+        <p>border: 5px</p>
+        <p>Output: 350px</p>
+        <p>The box-sizing: border-box; property is used to keep the total width and height of an element within the specified dimensions. In this example, the width is 350px, which already includes 20px padding on each side and a 5px border on each side. Therefore, padding and border do not increase the total width beyond 350px.</p>
+    </div>
+    <br>
+    <div class="box6">
+        <p>Width: 350px</p>
+        <p>Padding 20px</p>
+        <p>border: 5px</p>
+        <p>Output: 400px</p>
+        <p>The box-sizing: content-box; property sets the specified width and height for the content only. Padding and border are added outside the specified dimensions, increasing the total width and height of the element.</p>
+    </div>
+    <br>
+    <h2>Height, Padding, &amp; Border</h2>
+    <div class="box7">
+        <p>Height: 150px</p>
+        <p>border: 5px</p>
+        <p>Output: 160px</p>
+    </div>  
+    <br>
+    <div class="box8">
+        <p>Height: 250px</p>
+        <p>Padding: 150px</p>
+        <p>Border: 15px</p>
+        <p>Output: 580px</p>
+
+    </div>
+    <br>
+    <div class="box9">
+        <p>Height: 300px</p>
+        <p>Padding Top: 50px</p>
+        <p>Padding Bottom: 150px</p>
+        <p>Border Top: 10px</p>
+        <p>Border Bottom: 20px</p>
+        <p>Output: 530px</p>
+    </div>
+    <br>
+    <div class="box10">
+        <p>Height: 350px</p>
+        <p>Padding: 50px</p>
+        <p>Border: 10px</p>
+        <p>Output Height: 350px</p>
+        <p>Content Height: 230px</p>
+        <p>The box-sizing: border-box; property keeps the total height of the element within the specified 350px. The 50px padding on the top and bottom and the 10px border on all sides are included within the specified height.</p>
+    </div>
+    <!-- main div -->
+     <a href="../../../index.html">Back To Home</a>
+    </div>   
+    
+</body>
+</html>

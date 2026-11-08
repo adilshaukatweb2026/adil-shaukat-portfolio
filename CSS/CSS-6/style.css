@@ -1,0 +1,21 @@
+.descendant p {
+    color: red;
+}
+
+.child > p {
+    color: blue;
+}
+
+.adjacent h3 + p {
+    color: green;
+}
+
+.general h3 ~ p {
+    color: orange;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9;
+    text-align: center;
+}
